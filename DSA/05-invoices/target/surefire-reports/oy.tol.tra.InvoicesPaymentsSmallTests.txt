@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: oy.tol.tra.InvoicesPaymentsSmallTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in oy.tol.tra.InvoicesPaymentsSmallTests
-newInvoicesFromPaymentsSlowTest  Time elapsed: 0.041 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Wrong hash code for the file. ==> expected: <true> but was: <false>
-	at oy.tol.tra.InvoicesPaymentsSmallTests.newInvoicesFromPaymentsSlowTest(InvoicesPaymentsSmallTests.java:32)
-
