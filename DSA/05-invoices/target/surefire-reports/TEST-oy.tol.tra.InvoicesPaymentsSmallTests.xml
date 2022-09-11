@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="oy.tol.tra.InvoicesPaymentsSmallTests" time="0.045" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\johan\tira\tira-2021\05-invoices\target\test-classes;C:\Users\johan\tira\tira-2021\05-invoices\target\classes;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\johan\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\johan\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FI"/>
+    <property name="sun.boot.library.path" value="C:\OpenJDK17\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\johan\AppData\Local\Temp\surefire14870277447575709377\surefirebooter13911827334234219997.jar C:\Users\johan\AppData\Local\Temp\surefire14870277447575709377 2022-01-05T18-23-19_253-jvmRun1 surefire12617860569137711539tmp surefire_05858031397837004196tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="InvoicesPaymentsSmallTests#newInvoicesFromPaymentsSlowTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\johan\tira\tira-2021\05-invoices\target\test-classes;C:\Users\johan\tira\tira-2021\05-invoices\target\classes;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\johan\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\johan\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\johan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\johan\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\johan"/>
+    <property name="user.language" value="fi"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\OpenJDK17\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\johan\tira\tira-2021\05-invoices"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\johan\AppData\Local\Temp\surefire14870277447575709377\surefirebooter13911827334234219997.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-39"/>
+    <property name="user.name" value="johan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\johan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\johan\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\johan\tira\tira-2021\05-invoices"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\OpenJDK17\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\OpenJDK17\jdk-17.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\johan\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\johan\AppData\Local\Programs\Python\Python310\;C:\Users\johan\AppData\Local\Microsoft\WindowsApps;C:\Users\johan\AppData\Local\Programs\Microsoft VS Code\bin;C:\maven\apache-maven-3.8.4\bin;C:\Users\johan\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\johan\AppData\Local\Programs\Python\Python310\;C:\Users\johan\AppData\Local\Microsoft\WindowsApps;;C:\Users\johan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="newInvoicesFromPaymentsSlowTest" classname="oy.tol.tra.InvoicesPaymentsSmallTests" time="0.041">
+    <failure message="Wrong hash code for the file. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Wrong hash code for the file. ==> expected: <true> but was: <false>
+	at oy.tol.tra.InvoicesPaymentsSmallTests.newInvoicesFromPaymentsSlowTest(InvoicesPaymentsSmallTests.java:32)
+]]></failure>
+    <system-out><![CDATA[Starting to handle the invoices the slow way...
+Handling slowly the small file took 0.0193 ms
+
+Hash is 750396d23a0d397a3691e46902856dbd89d65a4a439c0104c030b3682b070cfc9d4d315cb323c44885c8132fef264fa8e55313b70551ea71ba4c342360bc642e
+]]></system-out>
+  </testcase>
+</testsuite>
